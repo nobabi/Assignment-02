@@ -63,17 +63,6 @@
 .main-content {
     background-color: #181818;
 }
-
-.banner-section {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    height: 715px;
-
-    gap: 50px;
-}
-
 .nav-header {
     color: #e6533c;
     font-size: 36px;
@@ -103,6 +92,15 @@
     line-height: 22px;
 }
 
+.banner-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    height: 715px;
+    flex-direction: row; 
+    gap: 50px;
+}
 .banner-content {
     width: 520px;
     height: 450px;
@@ -220,7 +218,7 @@
     max-width: 1200px;
     height: 452px;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: #181818;
 
 }
@@ -281,13 +279,14 @@
 }
 
 .Run-Extra-Mile-Easily {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 1060px;
     height: 371px;
     margin: 0 auto;
     margin-top: 10px;
     border-radius: 18px;
-    background: rgb(34, 34, 34);
+ 
+    background-color: #222222;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -295,15 +294,14 @@
 }
 
 
-.Run-Extra-Mile-Easily img
-{
+.Run-Extra-Mile-Easily img {
     width: 366px;
     height: 312px;
     border-radius: 18px;
 }
 
 
-.Run-Extra-Mile-Easily  .content  h1 {
+.Run-Extra-Mile-Easily .content h1 {
     color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 48px;
@@ -313,7 +311,7 @@
     text-align: center;
 }
 
-.Run-Extra-Mile-Easily  .content  h5 {
+.Run-Extra-Mile-Easily .content h5 {
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 14px;
@@ -321,4 +319,160 @@
     line-height: 24px;
     letter-spacing: 0.3px;
     text-align: center;
+}
+
+.BMI-Calculator-Chart {
+    width: 1440px;
+    height: 487px;
+    margin: 0 auto;
+    margin-top: 20px;
+    /* border: 2px solid red; */
+    background-color: #222222;
+    display: flex;
+    padding-top: 50PX;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+.BMI-Calculator-Chart-content h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.BMI-Calculator-from h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.BMI-Calculator-from h5 {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+
+#shapeid{
+    font-family: 'Miama', sans-serif;
+                                                
+}
+
+#tableHeader {
+   color: white;
+   font-size: bold;
+
+
+  }
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+   
+  
+
+  }
+  th, td {
+    background-color: #222222;
+  }
+
+.popular-collection{
+    width: 1430px;
+    /* height: 371px; */
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px solid red;
+    background-color: #181818;
+}
+
+
+
+
+.row-1,
+.row-2
+ {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.row-1  .first-Image img {
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.2);
+    background: #1a1a1a;
+    padding: 10px;
+    /* margin-top: 100px; */
+    margin-bottom: 20px;
+    /* position: relative; */
+}
+
+
+.row-2 .first-Image img {
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.2);
+    background: #1a1a1a;
+    padding: 10px;
+    /* margin-top: 100px; */
+    margin-bottom: 20px;
+   
+}
+.first-Image{
+    position: relative;
+}
+ .first-Image .container{
+    position: absolute;
+    left: 30px;
+    top :200px;
+    /* border: 2px solid red; */
+    /* background-color: white; */
+    color: white;
+}
+.Meet-Our-Team  h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.meet-our-team-description{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: center;
+}
+
+/* footer section */
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-section hr {
+    margin: 2rem 0;
 }
