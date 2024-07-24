@@ -1,43 +1,117 @@
-@media screen and (max-width:800px) {
+@media screen and (max-width:576px) {
+
     .navbar-main {
 
+        display: flex;
         flex-direction: column;
-        align-items: center;
+        height: auto;
+
 
 
     }
 
-    .navbar-main>div {
-        margin-top: 20px;
-    }
-
-}
-
-
-@media screen and (max-width:500px) {
     .nav-hamburger-menu {
         display: block;
+
     }
 
     .nav-button-container {
         display: none;
     }
 
-    .navbar-main {
-
-        flex-direction: row;
-        align-items: center;
-
-
-    }
 
     .banner-section {
-        display: flex;
-      flex-direction: row; /* Align items in a row for larger screens */
+        flex-direction: column;
+        height: auto;
+
     }
 
- 
+    .banner-content {
+        margin-top: 0;
+
+        margin-left: 0;
+
+    }
 
 
+    .btn-primary {
+        font-size: 16px;
+        padding: 14px 30px;
+        margin: 5px 5px;
+    }
+
+
+    .Change-Your-Habits-Image {
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .row-1,
+    .row-2 {
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .row-1 .first-Image img {
+        width: 400px;
+        height: 272px;
+        border-radius: 18px;
+        box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.2);
+        background: #1a1a1a;
+        padding: 10px;
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .BMI-Calculator-Chart {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .BMI-Calculator-from {
+        text-align: center;
+    }
+
+    .Run-Extra-Mile-Easily {
+        width: auto;
+        height: auto;
+        border-radius: 18px;
+        display: flex;
+        flex-direction: column;
+        background-color: #222222;
+        text-align: center;
+    }
+
+
+
+    .BMI-Calculator-Chart {
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 20px;
+        background-color: #222222;
+        display: flex;
+        flex-direction: column;
+        padding-top: 50PX;
+        justify-content: space-evenly;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
 
 }
