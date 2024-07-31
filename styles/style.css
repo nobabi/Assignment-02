@@ -31,7 +31,7 @@
 }
 
 .nav-hamburger-menu {
-    border: 2px dotted red;
+    /* border: 2px dotted red; */
     display: none;
 }
 
@@ -478,17 +478,6 @@ td {
     text-align: center;
 }
 
-/* footer section */
-.footer-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-}
-
-.footer-section hr {
-    margin: 2rem 0;
-}
 
 .BMI-Calculator-from input[type=text]
 {
@@ -501,4 +490,38 @@ td {
     width: 80%;
     background-color: #222222;
     /* border: none; */
+}
+
+/* footer section */
+
+.footer-section{
+    background-color: #222222;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row; 
+}
+
+
+.footer-section hr {
+    margin: 2rem 0;
+}
+
+
+.footer-Left h4{
+    color:#525252;
+}
+.footer-btn{
+    background: none;
+    color:#525252;
+    padding: 5px;
+    border: none;
+    /* border-radius: 5px; */
+    margin-left: 10px;
+
+}
+.footer-heading{
+    color: white;
 }
