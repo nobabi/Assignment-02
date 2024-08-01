@@ -15,6 +15,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
+    
 
 }
 
@@ -489,24 +490,49 @@
     letter-spacing: 0.3px;
     text-align: center;
 }
-
+.from-container{
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+}
 
 .BMI-Calculator-from input[type=text]
 {
-    margin-top: 10px;
-    height:40px;
-    border-radius: 5px;
-    text-align: left;
-    padding: 5px;
-    gap: 10px;
-    width: 80%;
-    background-color: #222222;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 282.5px;
+    height: 40px;
+    align-items: center;
+    padding: 12px 40px 12px 20px;
+    border: none;
+    margin-left: 10px;
 
-
-    /* border: none; */
+    /* border: none; select*/
 }
 
+#selectoption {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 282.5px;
+    height: 40px;
+    align-items: center;
+    padding: 12px 40px 12px 20px;
+    border: none;
+    margin-left: 10px;
+    color: rgba(255, 255, 255, 0.6);
+}
+#lastDv{
+    width: 577px;
+    height: 40px;
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.1);
+margin-left: 15px;
+padding: 12px 40px 12px 20px;
+border: none;
+color: rgba(255, 255, 255, 0.6);
 
+
+}
 #frm-heading{
 text-align: left;
 }

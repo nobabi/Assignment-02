@@ -121,6 +121,13 @@
 
     }
 
+
+    .BMI-Calculator-from h5 {
+        font-size: 14px;
+        margin: 6px;
+    }
+    
+
     .footer-container {
         display: flex;
         justify-content: space-around;
@@ -140,5 +147,36 @@
         margin-top: auto;
        
     }
+
+    
+.BMI-Calculator-from input[type=text]
+{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 282.5px;
+    height: 40px;
+    align-items: center;
+    padding: 12px 40px 12px 20px;
+    border: none;
+    margin-left: 10px;
+
+    /* border: none; select*/
+}
+
+.from-container{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    text-align: center;
+    margin-left: 100px;
+      
+}
+.BMI-Calculator-from{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    text-align: center;
+    margin-left: 100px;
+}
 
 }
