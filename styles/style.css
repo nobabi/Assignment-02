@@ -180,7 +180,7 @@
     width: 389px;
     height: 580px;
     position: relative;
-    border: 2px dotted red;
+    /* border: 2px dotted red; */
 }
 
 .free-workout-video {
