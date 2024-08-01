@@ -507,6 +507,14 @@
     /* border: none; */
 }
 
+
+#frm-heading{
+text-align: left;
+}
+#frm-desc{
+    text-align: left;
+}
+
 /* footer section */
 
 .footer-section{
@@ -520,9 +528,6 @@
 }
 
 
-.footer-section hr {
-    margin: 2rem 0;
-}
 
 
 .footer-Left h4{
@@ -539,4 +544,24 @@
 }
 .footer-heading{
     color: white;
+}
+#footerhr{
+    margin: 0 auto;
+    width: 85%;
+   border: 1px solid #525252;
+   margin-top: 50px;
+}
+
+#footerdv{
+    margin: 0 auto;
+    text-align: center;
+    /* border: 1px solid red; */
+
+
+}
+
+#footerdv p{
+  
+    margin-top: 20px;
+    color:#525252;
 }

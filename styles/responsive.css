@@ -74,11 +74,25 @@
     .BMI-Calculator-Chart {
         flex-direction: column;
         justify-content: center;
+        text-align: center;
     }
 
     .BMI-Calculator-from {
         text-align: center;
+        
     }
+    .BMI-Calculator-from input[type=text]
+{
+    text-align: center;
+}
+
+#frm-heading{
+    text-align: center;
+    }
+    #frm-desc{
+        text-align: center;
+    }
+    
 
     .Run-Extra-Mile-Easily {
         width: auto;
@@ -113,6 +127,18 @@
         align-items: center;
         flex-direction: column;
         text-align: center;
+    }
+    #footerhr{
+       
+       margin-top: 5px;
+    }
+    #footerdv {
+        margin-top: 5px;
+    }
+    #footerdv p{
+  
+        margin-top: auto;
+       
     }
 
 }
