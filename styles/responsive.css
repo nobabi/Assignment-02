@@ -26,11 +26,33 @@
 
     }
 
+ 
     .banner-content {
-        margin-top: 0;
+      
+        margin-top: 100px;
+    
+   
+    }
 
-        margin-left: 0;
+    .btn-primary {
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 22px;
+        letter-spacing: 0px;
+        text-align: center;
+        border-radius: 42px;
+        /* background: rgb(230, 83, 60); */
+        padding: 16px 40px 16px 40px;
+        margin: 0px 10px;
+        /* border: 2px dotted red; */
+    }
+    .banner-content-btn {
 
+        margin: 5px 5px;
+        /* border: 2px solid greenyellow; */
+        display: flex;
+        flex-direction: row;
     }
 
 
