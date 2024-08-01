@@ -79,6 +79,7 @@
 
     .BMI-Calculator-from {
         text-align: center;
+        margin-top: 20px;
         
     }
     .BMI-Calculator-from input[type=text]
@@ -103,7 +104,9 @@
         background-color: #222222;
         text-align: center;
     }
-
+.Meet-Our-Team{
+    margin-top: 20px;
+}
 
 
     .BMI-Calculator-Chart {
@@ -153,30 +156,46 @@
 {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
-    width: 282.5px;
+    width: 50%;
     height: 40px;
     align-items: center;
     padding: 12px 40px 12px 20px;
     border: none;
     margin-left: 10px;
 
-    /* border: none; select*/
+   
+    
 }
 
-.from-container{
+
+.BMI-Calculator-from
+{
     display: flex;
-    /* justify-content: center; */
     flex-direction: column;
     text-align: center;
     margin-left: 100px;
-      
+
 }
-.BMI-Calculator-from{
-    display: flex;
-    /* justify-content: center; */
-    flex-direction: column;
-    text-align: center;
-    margin-left: 100px;
+#lastDv
+{
+    width: 100%;
 }
+#selectoption 
+{
+    
+    width: 50%;
+    
+   
+}
+
+
+.BMI-Calculator-from input[type=text]
+{
+    margin-left: 5px;
+    text-align: left;
+
+   
+}
+
 
 }
