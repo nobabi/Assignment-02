@@ -18,7 +18,9 @@
     
 
 }
-
+/* div{
+    border: 2px solid red;
+} */
 .nav-button-container {
     border-radius: 10px;
     align-items: center;
@@ -177,7 +179,7 @@
 
 .banner-image {
 
-    width: 389px;
+    width: 355px;
     height: 580px;
     position: relative;
     /* border: 2px dotted red; */
