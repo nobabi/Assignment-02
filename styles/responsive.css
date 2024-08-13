@@ -10,6 +10,27 @@
 
     }
 
+
+ /* div{
+    border: 1px solid red;
+}  */
+    
+
+    .banner-image {
+
+        width: 285px;
+    height: 500px;
+    /* border: 2px dotted red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        
+    }
+.banner-image img {
+    text-align: center;
+    /* border: 1px solid red; */
+}
+    
     .nav-hamburger-menu {
         display: block;
 
@@ -25,11 +46,11 @@
         height: auto;
 
     }
-    /* btn-runmile */
+ 
  
     .banner-content {
       
-        margin-top: 100px;
+        margin-top: 10px;
     
    
     }
@@ -42,15 +63,13 @@
         letter-spacing: 0px;
         text-align: center;
         border-radius: 42px;
-        /* background: rgb(230, 83, 60); */
         padding: 16px 40px 16px 40px;
         margin: 0px 10px;
-        /* border: 2px dotted red; */
+       
     }
     .banner-content-btn {
 
         margin: 5px 5px;
-        /* border: 2px solid greenyellow; */
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -68,8 +87,16 @@
         flex-direction: column;
         width: auto;
         height: auto;
-        margin-bottom: 10px;
+       
     }
+
+    .Change-Your-Habits {
+       
+        margin-top: 60px;
+       
+    
+    }
+    
 
     .row-1,
     .row-2 {
@@ -78,20 +105,14 @@
         align-items: center;
     }
 
-    .row-1 .first-Image img {
-        width: 375px;
-        height: 272px;
-        border-radius: 18px;
-        box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.2);
-        background: #1a1a1a;
-        padding: 10px;
-        text-align: center;
-        margin-bottom: 20px;
+    .row-1 .row-2 .row-2 image-first-row img {
+        width: 260px;
+     border: 1px solid red;
 
     }
 
     .footer-container {
-        /* flex-direction: column; */
+       
     }
 
     .BMI-Calculator-Chart {
@@ -103,23 +124,23 @@
     .BMI-Calculator-from {
         text-align: center;
         margin-top: 20px;
-        /* border: 1px solid red; */
+     
         
     }
 
 .BMI-Calculator-from input[type=text]
 {
     text-align: center;
-    /* border: 1px solid red; */
+  
 }
 
 #frm-heading{
     text-align: center;
-    /* border: 1px solid red; */
+   
     }
     #frm-desc{
         text-align: center;
-        /* border: 1px solid red; */
+       
     }
     
 
@@ -201,8 +222,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    /* margin-left: 100px; */
-
+   
 }
 #lastDv
 {
@@ -228,7 +248,46 @@
     width: 300px;
     height: 280px;
     border-radius: 18px;
-    border: 2px dotted red;
+   
 }
+
+.free-work-description {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 10px;
+    text-align: left;
+  
+}
+
+.free-workout-video {
+    background-color: #393939;
+  
+    top: 35%;
+    left: 50%;
+    width: 120px;
+    height: 80px;
+  
+    
+}
+.video-tutorial {
+    background-color: rgba(55, 55, 55, 0.349);
+    color: white;
+    width: max-content;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    position: absolute;
+    width: 100px;
+    height: 65px;
+    left: -20px;
+    top: 460px;
+   /* margin-top: 100px; */
+
+}
+
+
+
+
+
+
 
 }
