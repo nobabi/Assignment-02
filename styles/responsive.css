@@ -25,7 +25,7 @@
         height: auto;
 
     }
-
+    /* btn-runmile */
  
     .banner-content {
       
@@ -53,6 +53,7 @@
         /* border: 2px solid greenyellow; */
         display: flex;
         flex-direction: row;
+        justify-content: center;
     }
 
 
@@ -102,18 +103,23 @@
     .BMI-Calculator-from {
         text-align: center;
         margin-top: 20px;
+        /* border: 1px solid red; */
         
     }
-    .BMI-Calculator-from input[type=text]
+
+.BMI-Calculator-from input[type=text]
 {
     text-align: center;
+    /* border: 1px solid red; */
 }
 
 #frm-heading{
     text-align: center;
+    /* border: 1px solid red; */
     }
     #frm-desc{
         text-align: center;
+        /* border: 1px solid red; */
     }
     
 
@@ -195,7 +201,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 
 }
 #lastDv
@@ -218,6 +224,11 @@
 
    
 }
-
+.Run-Extra-Mile-Easily-image img {
+    width: 350px;
+    height: 300px;
+    border-radius: 18px;
+    border: 2px dotted red;
+}
 
 }
