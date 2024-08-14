@@ -23,9 +23,7 @@
     
 
 }
-/* div{
-    border: 2px solid red;
-} */
+
 .nav-button-container {
     border-radius: 10px;
     align-items: center;
@@ -34,18 +32,18 @@
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
-    /* border: 2px dotted red; */
+ 
 
 }
 
 .nav-hamburger-menu {
-    /* border: 2px dotted red; */
+
     display: none;
 }
 
 .navbar-wrapper {
     background-color: #181818;
-    /* border: 2px dotted red; */
+
 }
 
 .navbar-main {
@@ -56,7 +54,7 @@
     margin: 0 auto;
     padding: 20px;
     color: white;
-    /* border: 2px dotted red; */
+  
 
 
 
@@ -69,7 +67,7 @@
     border: none;
     border-radius: 5px;
     margin-left: 10px;
-    /* border: 2px dotted red; */
+
 
 }
 
@@ -87,7 +85,7 @@
     line-height: 120%;
     letter-spacing: 0%;
     text-align: left;
-    /* border: 2px dotted red; */
+   
 }
 
 .nav-menu-Home {
@@ -101,7 +99,7 @@
     width: 92px;
     height: 38px;
     text-align: center;
-    /* border: 2px dotted red; */
+   
 }
 
 .nav-menu-btn {
@@ -109,7 +107,7 @@
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
-    /* border: 2px dotted red; */
+  
 }
 
 .banner-section {
@@ -120,16 +118,12 @@
     height: 715px;
     flex-direction: row;
     gap: 50px;
-    /* border: 2px dotted yellow; */
+   
 }
 
 .banner-content {
-    /* width: 520px;
-    height: 450px; */
-
-    margin-top: 100px;
-    /* margin-left: 150px; */
-    /* border: 20px double wheat; */
+      margin-top: 100px;
+   
 }
 
 .banner-content-heading {
@@ -140,7 +134,7 @@
     line-height: 120%;
     letter-spacing: 0%;
     text-align: left;
-    /* border: 2px dotted red; */
+   
 }
 
 .banner-content-description {
@@ -150,13 +144,13 @@
     line-height: 24px;
     letter-spacing: 0.5px;
     text-align: left;
-    /* border: 2px dotted red; */
+   
 }
 
 .banner-content-btn {
 
     margin: 10px 20px;
-    /* border: 2px solid greenyellow; */
+    
 }
 
 .btn-primary {
@@ -170,14 +164,14 @@
     background: rgb(230, 83, 60);
     padding: 16px 40px 16px 40px;
     margin: 0px 10px;
-    /* border: 2px dotted red; */
+ 
 }
 
 .btn-download {
 
     border: 2px solid rgb(255, 255, 255);
     background-color: #181818;
-    /* border: 2px dotted red; */
+   
 
 
 }
@@ -187,7 +181,7 @@
     width: 355px;
     height: 580px;
     position: relative;
-    /* border: 2px dotted red; */
+   
 }
 
 .free-workout-video {
@@ -203,14 +197,14 @@
     width: 150px;
     height: 90px;
     font-weight: bold;
-    /* border: 2px dotted red; */
+   
 }
 
 .free-work-description {
     color: rgba(255, 255, 255, 0.65);
     font-size: 10px;
     text-align: left;
-    /* border: 2px dotted red; */
+    
 }
 
 .video-tutorial {
@@ -225,7 +219,7 @@
     height: 60px;
     left: -50px;
     top: 450px;
-    /* border: 2px dotted red; */
+  
 
 }
 
@@ -234,7 +228,7 @@
     align-items: center;
     gap: 5px;
     flex-direction: column;
-    /* justify-content: center; */
+    
     
 
 }
@@ -249,11 +243,10 @@
     height: 20px;
     background-color: #e6533c;
     border-radius: 50%;
-    /* margin-bottom: 20px; */
-    left: 15%;
+     left: 15%;
     bottom: 40%;
     padding: 10px;
-    /* border: 2px dotted red; */
+   
 }
 
 .Change-Your-Habits {
@@ -263,7 +256,7 @@
     height: auto;
 
     background-color: #181818;
-    /* border: 2px dotted red; */
+    
 
 }
 
@@ -275,7 +268,7 @@
     line-height: 120%;
     letter-spacing: 0%;
     text-align: center;
-    /* border: 2px dotted red; */
+   
 }
 
 .Change-Your-Habits-Heading h5 {
@@ -286,23 +279,37 @@
     line-height: 24px;
     letter-spacing: 0.3px;
     text-align: center;
-    /* border: 2px dotted red; */
+    
 }
 
 .Change-Your-Habits-Image {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 2px dotted red; */
+  
 
 }
 
 .Change-Your-Habits-Image img {
 
     border-radius: 100px;
-    /* border: 2px dotted red; */
+   
 }
-
+.Change-Your-Habits-Image .card{
+ /* border: 1px solid red; */
+ text-align: center;
+ margin: 10px;
+}
+#changeHeading{
+    padding: 10px;
+    /* border: 1px solid red; */
+   }
+   #changeDesc{
+    padding: 10px;
+    /* border: 1px solid red; */
+   }
+   
+   
 
 .Change-Your-Habits-Image h1 {
 
@@ -313,7 +320,7 @@
     line-height: 120%;
     letter-spacing: 0%;
     text-align: center;
-    /* border: 2px dotted red; */
+    
 }
 
 .Change-Your-Habits-Image h5 {
@@ -325,7 +332,7 @@
     line-height: 18px;
     letter-spacing: 0.3px;
     text-align: center;
-    /* border: 2px dotted red; */
+  
 }
 
 .Run-Extra-Mile-Easily {
@@ -339,7 +346,7 @@
     background-color: #222222;
     justify-content: center;
     gap: 20px;
-    /* border: 2px dotted red; */
+   
 }
 
 
@@ -347,7 +354,7 @@
     width: 366px;
     height: 312px;
     border-radius: 18px;
-    /* border: 2px dotted red; */
+ 
 }
 
 
@@ -359,7 +366,7 @@
     line-height: 120%;
     letter-spacing: 0%;
     text-align: center;
-    /* border: 2px dotted red; */
+   
 }
 
 .Run-Extra-Mile-Easily-content h5 {
@@ -370,7 +377,7 @@
     line-height: 24px;
     letter-spacing: 0.3px;
     text-align: center;
-    /* border: 2px dotted red; */
+   
 }
 
 .BMI-Calculator-Chart {
@@ -378,7 +385,7 @@
     height: auto;
     margin: 0 auto;
     margin-top: 20px;
-    /* gap: 40px; */
+   
 
     background-color: #222222;
     display: flex;
@@ -386,7 +393,7 @@
 
 
     justify-content: space-around;
-    /* border: 2px dotted red; */
+ 
 
 }
 
@@ -397,7 +404,7 @@
     line-height: 120%;
     letter-spacing: 0%;
     text-align: center;
-    /* border: 2px dotted red; */
+  
 }
 
 .BMI-Calculator-from h1 {
@@ -408,7 +415,7 @@
     letter-spacing: 0%;
     text-align: center;
     margin-left: 22px;
-    /* border: 2px dotted red; */
+  
 }
 
 .BMI-Calculator-from h5 {
@@ -420,7 +427,7 @@
     letter-spacing: 0.3px;
     text-align: center;
     margin-left: 22px;
-    /* border: 2px dotted red; */
+   
 }
 
 #shapeid {
@@ -432,21 +439,16 @@
 #tableHeader {
     color: white;
     font-size: bold;
-    /* border: 2px dotted red; */
+    
 
 
 }
 
-/* table, td, th {
-    border-collapse: collapse;
-    border: 1px solid white;
-    width: 100%;
-  }
-   */
+
   table {
-    /* border: 1px solid white; */
+ 
     border-collapse: collapse;
-    /* border: 2px dotted red; */
+  
  
   }
 
@@ -457,7 +459,7 @@
     height: 45px;
     width: auto;
     padding: 10px;
-    /* border: 2px dotted red; */
+   
 
   }
 
@@ -469,7 +471,7 @@
     text-align: center;
     color:#525252;
     width: auto;
-    /* border: 2px dotted red; */
+   
   }
 
 
@@ -477,12 +479,10 @@
 
 .popular-collection {
     width: 1430px;
-
     margin: 0 auto;
     margin-top: 20px;
-    /* border: 2px solid red; */
     background-color: #181818;
-    /* border: 2px dotted red; */
+   
 }
 
 
@@ -493,7 +493,7 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-    /* border: 2px dotted red; */
+  
 }
 
 .row-1 .first-Image img {
@@ -503,9 +503,8 @@
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.2);
     background: #1a1a1a;
     padding: 10px;
-
     margin-bottom: 20px;
-    /* border: 2px dotted red; */
+  
 
 }
 
@@ -517,9 +516,8 @@
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.2);
     background: #1a1a1a;
     padding: 10px;
-
     margin-bottom: 20px;
-    /* border: 2px dotted red; */
+ 
 
 }
 
@@ -542,7 +540,7 @@
     line-height: 120%;
     letter-spacing: 0%;
     text-align: center;
-    /* border: 2px dotted red; */
+   
 }
 
 .meet-our-team-description {
@@ -552,7 +550,7 @@
     line-height: 24px;
     letter-spacing: 0.3px;
     text-align: center;
-    /* border: 2px dotted red; */
+    
 }
 .from-container{
     display: flex;
@@ -570,10 +568,7 @@
     padding: 12px 40px 12px 20px;
     border: none;
     margin-left: 10px;
-    /* border: 2px dotted red; */
-
-    /* border: none; select*/
-}
+   }
 
 #selectoption {
     border-radius: 8px;
@@ -585,7 +580,7 @@
     border: none;
     margin-left: 10px;
     color: rgba(255, 255, 255, 0.6);
-    /* border: 2px dotted red; */
+    
 }
 #lastDv{
     width: 577px;
@@ -596,7 +591,7 @@ margin-left: 15px;
 padding: 12px 40px 12px 20px;
 border: none;
 color: rgba(255, 255, 255, 0.6);
-/* border: 2px dotted red; */
+
 
 
 }
@@ -607,18 +602,17 @@ text-align: left;
     text-align: left;
 }
 
-/* footer section */
 
 .footer-section{
     background-color: #222222;
-    /* border: 2px dotted red; */
+  
 }
 .footer-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: row; 
-    /* border: 2px dotted red; */
+  
 }
 
 
@@ -626,16 +620,15 @@ text-align: left;
 
 .footer-Left h4{
     color:#525252;
-    /* border: 2px dotted red; */
+   
 }
 .footer-btn{
     background: none;
     color:#525252;
     padding: 5px;
     border: none;
-    /* border-radius: 5px; */
     margin-left: 10px;
-    /* border: 2px dotted red; */
+  
 
 }
 .footer-heading{
@@ -646,13 +639,13 @@ text-align: left;
     width: 85%;
    border: 1px solid #525252;
    margin-top: 50px;
-   /* border: 2px dotted red; */
+  
 }
 
 #footerdv{
     margin: 0 auto;
     text-align: center;
-    /* border: 2px dotted red; */
+   
 
 
 }
@@ -661,5 +654,5 @@ text-align: left;
   
     margin-top: 20px;
     color:#525252;
-    /* border: 2px dotted red; */
+ 
 }
